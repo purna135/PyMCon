@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PyMCon 2022</title>
+
+    <!-- Iconscout Icon CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.5/css/unicons.css">
+
+    <!-- Google Font (Montserrat)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap">
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Background Texture -->
+    <style>
+        body {
+            background-image: url("images/bg-texture.png");
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ============================= START OF NAVBAR =========================== -->
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html">
+                <h4>PyMCon</h4>
+            </a>
+            <ul class="nav__menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Speakers</a></li>
+                <li><a href="#">Organizers</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Code of Conduct</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- ============================= END OF NAVBAR =========================== -->
+
+
+
+
+    <!-- ============================== START OF HEADER ===================== -->
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>PYMCON'22 - Web Series</h1>
+                <h5>An Asynchronous-first virtual conference for the Bayesian community</h5>
+                <p>
+                    We believe in building a community as much as we believe in building code. Come and join with us!
+                </p>
+                <!-- <p> October 31st | Africa/Asia/Europe: 9-15 UTC | Americas UTC-7</p> -->
+                <a href="#" class="btn btn-primary">Register Now</a>
+            </div>
+
+            <div class="header_right">
+                <div class="rocket">
+                    <img src="./images/pymc-logo-350.png">
+                </div>
+                <div class="pulse">
+                    <span style="--delay:1;"></span>
+                    <span style="--delay:2;"></span>
+                    <span style="--delay:3;"></span>
+                    <span style="--delay:4;"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ============================== END OF HEADER ===================== -->
+
+
+
+
+    <!-- ========================== START OF GOALS ========================== -->
+    <section class="golas">
+        <div class="container golas__container">
+            <div class="golas__left">
+                <h1>OUR GOALS</h1>
+                <p>
+                    We believe that the PyMC project is more than just a codebase. It is also a community that is
+                    interested not only in statistical methods and code, but also in sharing knowledge and helping
+                    others - whether they be Bayesian veterans or new to the world of open source. The purpose of this
+                    conference is to better our community, just as we better our code .
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="golas__right">
+                <article class="goal">
+                    <span class="goal__icon"><i class="uil uil-users-alt"></i></span>
+                    <h5>Create a space</h5>
+                    <p>Create a space and time for community members to meet each other & interact</p>
+                </article>
+
+                <article class="goal">
+                    <span class="goal__icon"><i class="uil uil-microphone"></i></span>
+                    <h5>Record and organize</h5>
+                    <p>Record and organize the expertise and experience around PyMC</p>
+                </article>
+
+                <article class="goal">
+                    <span class="goal__icon"><i class="uil uil-puzzle-piece"></i></span>
+                    <h5>Help folks</h5>
+                    <p>Help folks find ways to contribute to PyMC, authentic to themselves</p>
+                </article>
+
+                <article class="goal">
+                    <span class="goal__icon"><i class="uil uil-brackets-curly"></i></span>
+                    <h5>Lorem ipsum</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- ========================== END OF GOALS ========================== -->
+
+
+
+
+    <!-- ================================== START OF PAST PYMCON EVENT ============================== -->
+    <section class="events">
+        <h2>PyMCon 2022 at a Glance</h2>
+        <div class="container events__container">
+            <article class="event">
+                <div class="iframe__container">
+                    <iframe src="https://www.youtube.com/embed/LTLfeNyioR8?rel=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="event__info">
+                    <h4>PyMCon 2020 Welcome by Ravin Kumar</h4>
+                    <div class="event__description">
+                        <p>
+                            Ravin is a data scientist at Google where he uses data to inform decisions. He has
+                            previously worked at Sweetgreen, designing systems that would benefit team members and
+                            communities through sustainable and healthy food, and SpaceX, creating tools that would
+                            ultimately launch rocket ships.
+                        </p>
+                    </div>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+            </article>
+
+            <article class="event">
+                <div class="iframe__container">
+                    <iframe src="https://www.youtube.com/embed/RXODDVK7B-g?rel=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="event__info">
+                    <h4>PyMC: Past, Present, and Future by Chris</h4>
+                    <div class="event__description">
+                        <p>
+                            To kick off PyMCon 2020, I will provide some of the back-story of the PyMC project: where
+                            we’ve been, where we are, and where we might go. Chris Fonnesback is a Senior Quantitative
+                            Analyst in Baseball Operations for the New York Yankees.
+                        </p>
+                    </div>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+            </article>
+
+            <article class="event">
+                <div class="iframe__container">
+                    <iframe src="https://www.youtube.com/embed/ZxR3mw-Znzc?rel=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="event__info">
+                    <h4>The Bayesian Workflow: building a covid19 model</h4>
+                    <div class="event__description">
+                        <p>
+                            In this tutorial we will build a COVID-19 model from scratch. Thomas is the founder of PyMC
+                            Labs, a Bayesian consulting firm, PyMC author, PhD on computational cognitive neuroscience
+                            from Brown University.
+                        </p>
+                    </div>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- ================================== END OF PAST PYMCON EVENT ============================== -->
+
+
+
+
+    <!-- ================================== START OF TEAM ============================== -->
+    <section class="team">
+        <h2>Meet Our Team</h2>
+        <div class="container team__container">
+            <article class="team__member">
+                <div class="team__member-image">
+                    <img src="./images/ravin.jpg">
+                </div>
+                <div class="team__member-info">
+                    <h4>Ravin Kumar</h4>
+                    <p>Executive Chair</p>
+                </div>
+                <div class="team__member-socials">
+                    <a href="#" target="_blank"><i class="uil uil-github"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-twitter-alt"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                </div>
+            </article>
+
+            <article class="team__member">
+                <div class="team__member-image">
+                    <img src="./images/twiecki.jpg">
+                </div>
+                <div class="team__member-info">
+                    <h4>Thomas Wiecki</h4>
+                    <p>Executive Chair</p>
+                </div>
+                <div class="team__member-socials">
+                    <a href="#" target="_blank"><i class="uil uil-github"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-twitter-alt"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                </div>
+            </article>
+
+            <article class="team__member">
+                <div class="team__member-image">
+                    <img src="./images/oriol.jpg">
+                </div>
+                <div class="team__member-info">
+                    <h4>Oriol Abril-Pla</h4>
+                    <p>Diversity Chair</p>
+                </div>
+                <div class="team__member-socials">
+                    <a href="#" target="_blank"><i class="uil uil-github"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-twitter-alt"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                </div>
+            </article>
+
+            <article class="team__member">
+                <div class="team__member-image">
+                    <img src="./images/christian.jpg">
+                </div>
+                <div class="team__member-info">
+                    <h4>Christian</h4>
+                    <p>Tech Committee</p>
+                </div>
+                <div class="team__member-socials">
+                    <a href="#" target="_blank"><i class="uil uil-github"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-twitter-alt"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                </div>
+            </article>
+
+            <article class="team__member">
+                <div class="team__member-image">
+                    <img src="./images/sid.jpg">
+                </div>
+                <div class="team__member-info">
+                    <h4>Sid Ravinutala</h4>
+                    <p>Marketing Chair</p>
+                </div>
+                <div class="team__member-socials">
+                    <a href="#" target="_blank"><i class="uil uil-github"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-twitter-alt"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                </div>
+            </article>
+
+            <article class="team__member">
+                <div class="team__member-image">
+                    <img src="./images/hector.jpg">
+                </div>
+                <div class="team__member-info">
+                    <h4>Hector Muñoz</h4>
+                    <p>Program Chair</p>
+                </div>
+                <div class="team__member-socials">
+                    <a href="#" target="_blank"><i class="uil uil-github"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-twitter-alt"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                </div>
+            </article>
+
+            <article class="team__member">
+                <div class="team__member-image">
+                    <img src="./images/quan.jpg">
+                </div>
+                <div class="team__member-info">
+                    <h4>Quan Nguyen</h4>
+                    <p>Program Chair</p>
+                </div>
+                <div class="team__member-socials">
+                    <a href="#" target="_blank"><i class="uil uil-github"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-twitter-alt"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                </div>
+            </article>
+
+            <article class="team__member">
+                <div class="team__member-image">
+                    <img src="./images/chris.jpg">
+                </div>
+                <div class="team__member-info">
+                    <h4>Chris Krapu</h4>
+                    <p>Program Committee</p>
+                </div>
+                <div class="team__member-socials">
+                    <a href="#" target="_blank"><i class="uil uil-github"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-twitter-alt"></i></a>
+                    <a href="#" target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- ================================== END OF TEAM ============================== -->
+
+
+
+
+    <!-- ================================== START OF SPONSORS ============================== -->
+    <section class="container sponsors__container">
+        <h2>Our Sponsors</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="sponsor swiper-slide">
+                    <div class="sponsor-logo">
+                        <img src="./images/sp1.jpg">
+                    </div>
+                </div>
+
+                <div class="sponsor swiper-slide">
+                    <div class="sponsor-logo">
+                        <img src="./images/sp2.jpg">
+                    </div>
+                </div>
+
+                <div class="sponsor swiper-slide">
+                    <div class="sponsor-logo">
+                        <img src="./images/sp3.jpg">
+                    </div>
+                </div>
+
+                <div class="sponsor swiper-slide">
+                    <div class="sponsor-logo">
+                        <img src="./images/sp4.jpg">
+                    </div>
+                </div>
+
+                <div class="sponsor swiper-slide">
+                    <div class="sponsor-logo">
+                        <img src="./images/sp5.jpg">
+                    </div>
+                </div>
+
+                <div class="sponsor swiper-slide">
+                    <div class="sponsor-logo">
+                        <img src="./images/sp6.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <!-- ================================== END OF SPONSORS ============================== -->
+
+
+
+
+    <!-- ================================== START OF FAQs ============================== -->
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs__container">
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, eveniet!
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, eveniet!
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, eveniet!
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, eveniet!
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, eveniet!
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, eveniet!
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, eveniet!
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, eveniet!
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, eveniet!
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, eveniet!
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- ================================== END OF FAQs ============================== -->
+
+
+
+
+    <!-- ================================== START OF SUBSCRIBE ============================== -->
+    <section class="subscribe">
+        <div class="container subscribe__container">
+            <div class="subscribe__text">
+                <h1>Subscribe to get updated</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat a odio id blanditiis cupiditate
+                    totam temporibus tempora voluptate adipisci quae.
+                </p>
+            </div>
+            <a href="#" class="btn subscribe__btn">Subscribe</a>
+        </div>
+    </section>
+    <!-- ================================== END OF SUBSCRIBE ============================== -->
+
+
+
+
+    <!-- ================================== START OF FOOTER ============================== -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer_logo">
+                    <h4>PyMCon 2022</h4>
+                </a>
+                <p>
+                    Pymcon is a totally volunteer run conference with help from people like you.
+                </p>
+            </div>
+
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Schedule</a></li>
+                    <li><a href="#">Speakers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#">Code of conduct</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+91 9668838634</p>
+                    <p>pymc@gmail.com</p>
+                </div>
+                <ul class="footer__socials">
+                    <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                    <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                    <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; PyMC</small>
+        </div>
+    </footer>
+    <!-- ================================== END OF FOOTER ============================== -->
+
+
+
+    <!-- =============== JAVASCRIPT ================== -->
+    <script src="js/main.js"></script>
+
+    <!-- ================== ANIMATION ==================== -->
+    <script src="./js/animation_script.js"></script>
+
+    <!-- =============== SWIPER SLIDER =============== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- =============== SPONSORS SLIDER LOGIC ================ -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 1500,
+                disableOnInteraction: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+            // when windows width is >= 600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 4,
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>
