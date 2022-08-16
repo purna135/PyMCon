@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap">
 
-    <!-- Swiper JS -->
+    <!-- Swiper JS for Logo Slider-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="./css/style.css">
@@ -63,7 +63,6 @@
                 <p>
                     We believe in building a community as much as we believe in building code. Come and join with us!
                 </p>
-                <!-- <p> October 31st | Africa/Asia/Europe: 9-15 UTC | Americas UTC-7</p> -->
                 <a href="#" class="btn btn-primary">Register Now</a>
             </div>
 
@@ -584,10 +583,12 @@
 
             // when windows width is >= 800px
             breakpoints: {
+                // for Tablate
                 800: {
                     slidesPerView: 3,
                     spaceBetween: 20,
                 },
+                // for Desktop
                 1000: {
                     slidesPerView: 4,
                     spaceBetween: 30,
