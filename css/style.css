@@ -358,25 +358,19 @@ header {
 }
 
 
-/* ======================== PAST PYMCON EVENT ====================== */
-.events {
+/* ======================== KEYNOTE SPEAKERS ====================== */
+.speakers {
     margin-top: 8rem;
 }
 
-.events__container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-}
-
-.event {
+.speaker {
     background: var(--color-bg1);
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
 }
 
-.event:hover {
+.speaker:hover {
     background: transparent;
     border-color: var(--color-primary);
 }
@@ -402,19 +396,24 @@ header {
 }
 
 
-.event__info {
+.speaker__info {
     padding: 2rem;
 }
 
-.event__description {
+.speaker__description {
     height: 6.5rem;
     overflow: hidden;
     margin-bottom: 1rem;
 }
 
-.event__description p {
+.speaker__description p {
     margin: 1.2rem 0 2rem;
     font-size: 0.8rem;
+}
+
+.swiper-pagination {
+    position: relative;
+    padding-top: 1.5rem;
 }
 
 
@@ -520,10 +519,6 @@ header {
 
 .sponsor:hover img {
     transform: scale(1.1);
-}
-
-.swiper-pagination {
-    padding: 3rem;
 }
 
 
@@ -792,17 +787,9 @@ footer ul li a:hover {
         margin-right: 0;
     }
 
-    /* ============================ EVENT ============================== */
-    .events {
+    /* ============================ KEYNOTE SPEAKERS ============================== */
+    .speakers {
         margin-top: 0;
-    }
-
-    .events__container {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .event:nth-child(3) {
-        display: none;
     }
 
     /* ================================ TEAM =================== */
@@ -899,11 +886,6 @@ footer ul li a:hover {
     
     .goal p {
         font-size: 0.8rem;
-    }
-
-    /* ======================= EVENTS ======================== */
-    .events__container {
-        grid-template-columns: 1fr;
     }
 
     /* ================================ TEAM =================== */
